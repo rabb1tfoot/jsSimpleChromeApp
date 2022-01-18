@@ -25,3 +25,14 @@ html기본기능을 막는방법 일단 첫번째 인자를 받아서 정보를 
 event.preventDefault로 막을 수 있다.
 
 localstorage db같은것 검사눌러서 application탭에 localstorage에서 확인가능.
+
+SetInterval : 해당시간에 실행시켜서 계속 반복적으로 실행시켜줌
+SetTimeout : 해당시간에 한번만 실행
+
+new Date 객체를 통해서 날짜 년 시간등을 뽑아낼수있음.
+
+padStart(2,"0") 자리수가 첫째인자보다 적으면 2번째 인자로 앞부터 채워넣음.
+padEnd(2,"0")  `` 같은데 채우는게 뒤부터 채움.
+String(...) 스트링으로 감싸면 문자로 바뀜
+
+Math.random() 랜덤숫자를 줌. 0~0.9999 까지
