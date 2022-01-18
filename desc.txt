@@ -1,0 +1,27 @@
+콘솔을통해서 자바스크립트를 쓸수있다. 당연히 파일에서도 가능
+
+document.으로 도큐먼트를 불러올수있고 html을 접근할수있다.
+
+const title =document.getElementById("title") 이런식으로 불러올수있다. ""에는 id가 들어간다.
+보통 클래스 네임을 사용함.getElementByClassName("") or getElementsByClassName("") 
+or querySelector("") css방식으로 가져옴. ".hello h1" 이런식으로 씀.
+title.innertext = "Got you"; 이런식으로 자바스크립트에서 html을 바꿀수 있다.
+
+이벤트 리스너 추가 title.addEventListener("이벤트 이름", 함수이름);
+
+title.onclick = 함수이름; 이런식으로 바꿀수 있음.
+
+자바스크립트에서 엘리먼트에게 클래스를 부여할수 있음. 이걸통해서 css로 색상을 바꿀수있음.
+
+h1.classList.contains(...) h1.classList.remove(...) 이런식으로 클래스 리스트를 넣거나 뺄수있음.
+또는 toggle을 쓰면 알아서 빼거나 넣는다. 있으면 빼고 없으면 넣어준다. 클래스를 개꿀
+
+로그인
+
+자바스크립트는 첫번째 인자에 해당 정보를 넣어준다. 정의했든 안했든.
+function tomato 라는 인자를 넣고 tomato.preventDefault(); 하면  tomato에 이벤트 정보가 체워진다.
+
+html기본기능을 막는방법 일단 첫번째 인자를 받아서 정보를 받고
+event.preventDefault로 막을 수 있다.
+
+localstorage db같은것 검사눌러서 application탭에 localstorage에서 확인가능.
