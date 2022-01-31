@@ -36,3 +36,8 @@ padEnd(2,"0")  `` 같은데 채우는게 뒤부터 채움.
 String(...) 스트링으로 감싸면 문자로 바뀜
 
 Math.random() 랜덤숫자를 줌. 0~0.9999 까지
+Math.round() 반올림할 숫자를 쓰면 숫자에 맞춰서 반올림함.
+ceil() 올림, floor() 내림.
+
+document.createElement("img") 이걸통해 도큐먼트에 태그를 만들수있다.
+document.body.appendChild(...) 이걸통해서 태그를 넣어줄수 있다.
